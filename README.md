@@ -11,13 +11,9 @@ A mini project using **React**, **Node.js**, and **MySQL** to manage railway tic
 - **Backend**: Node.js, Express.js
 - **Database**: MySQL
 
-## Setup Instructions
 
-1. **Clone Repository**:
-   ```bash
-   git clone https://github.com/your-username/railway-management-system.git
-   cd railway-management-system
-   ```
 
-## Contributors
-- Your Name ([GitHub Profile](https://github.com/your-username))
+
+
+
+
