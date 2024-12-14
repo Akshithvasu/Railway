@@ -19,31 +19,5 @@ A mini project using **React**, **Node.js**, and **MySQL** to manage railway tic
    cd railway-management-system
    ```
 
-2. **Backend Setup**:
-   - Navigate to `backend`, install dependencies, and configure `.env`:
-     ```env
-     DB_HOST=localhost
-     DB_USER=your-username
-     DB_PASSWORD=your-password
-     DB_NAME=railway_manage
-     ```
-   - Start the server:
-     ```bash
-     npm start
-     ```
-
-3. **Frontend Setup**:
-   - Navigate to `frontend`, install dependencies, and start the React app:
-     ```bash
-     npm start
-     ```
-
-4. **Database**:
-   - Import `railway_management.sql` into MySQL.
-
-## Access
-- Frontend: `http://localhost:3000`
-- Backend: `http://localhost:5000`
-
 ## Contributors
 - Your Name ([GitHub Profile](https://github.com/your-username))
