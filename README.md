@@ -25,7 +25,7 @@ A mini project using **React**, **Node.js**, and **MySQL** to manage railway tic
      DB_HOST=localhost
      DB_USER=your-username
      DB_PASSWORD=your-password
-     DB_NAME=railway_management
+     DB_NAME=railway_manage
      ```
    - Start the server:
      ```bash
