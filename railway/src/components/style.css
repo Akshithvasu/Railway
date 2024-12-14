@@ -1,0 +1,114 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-image: url('images/railway.jpg'); Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .icon-pizza {
+    font-size: 48px;
+    color: #ff6347; /* Tomato color */
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-content {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .container-icon-password {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .icon-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .container-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff6347; /* Tomato color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-button:hover {
+    background-color: #e5533b; /* Darker tomato color on hover */
+  }
+  
+  .btn-form {
+    font-size: 14px;
+    color: #ff6347;
+    text-decoration: none;
+  }
+  
+  .btn-form:hover {
+    text-decoration: underline;
+  }
+  
+  span {
+    color: red;
+    font-size: 12px;
+  }
+  
